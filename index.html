@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilli</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+<link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <section class="home" id="home">
+
+        <div class="header top pt-3">
+
+            <div class="container-fluid">
+                <div class="row g-3 text-center">
+
+                    <div class="col-md-4 col-sm-6">
+                        <i class="bi bi-geo-alt fst-normal"> Restaurant St, Delicious City, London 9578, UK</i>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <i class="bi bi-clock fst-normal"> Daily : 8.00 am to 10.00 pm</i>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6">
+                        <i class="bi bi-telephone fst-normal"> +1 123 456 7890 </i>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <i class="bi bi-envelope fst-normal"> Booking@restaurant.com</i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid">
+
+                <div href="#" class="row navbar-brand">
+                    <img src="images/logo.svg" alt="">
+                </div>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <i class="bi bi-list" style="font-size: 1.8rem"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center justify-content-center">
+                        <li class="nav-item px-3 mb-4">
+                            <a class="links" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item px-3 mb-4">
+                            <a class="links" href="#menu">MENUS</a>
+                        </li>
+                        <li class="nav-item px-3 mb-4">
+                            <a class="links" href="#about">ABOUT US</a>
+                        </li>
+                        <li class="nav-item px-3 mb-4">
+                            <a class="links" href="#chef">OUR CHEFS</a>
+                        </li>
+                        <li class="nav-item px-3 mb-4">
+                            <a class="links" href="#contact">CONTACT</a>
+                        </li>
+                        <li class="nav-item ps-3 mb-4">
+                            <a href="#contact"><button class="btn">FIND A TABLE</button> </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <p class="subheading mb-3" id="home-subheading">TRADATIONAL & HYGINE</p>
+
+        <div class="justify-content-center d-flex">
+            <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+        </div>
+
+        <i class="bi bi-chevron-right position-absolute" id="arrow-right" onclick="slider()"></i>
+        <i class="bi bi-chevron-left position-absolute" id="arrow-left" onclick="slider2()"></i>
+
+        <h1 class="main-heading mb-4" id="home-heading">For the love of <br> delicious food</h1>
+
+        <p class="para text-center mb-5">Come with family & feel the joy of mouthwatering food</p>
+
+        <div class="mb-5 d-flex justify-content-center align-items-center">
+            <a href="#menu"><button class="btn-2" style="background-color: transparent;">VIEW OUR MENU</button> </a>
+        </div>
+
+        <div class="book-outer d-flex justify-content-end pb-5">
+
+            <div class="book position-relative me-5">
+                <div class="book-inner position-absolute"></div>
+                <div class=" d-flex align-items-center justify-content-center">
+                    <img src="images/hero-icon.png" alt="">
+                </div>
+                <p class="subheading text-black mt-2">BOOK A <br>TABLE</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="offer mx-0 position-relative">
+
+        <img class="position-absolute bg-1" src="images/shape-2.png" alt="">
+        <img class="position-absolute bg-2" src="images/shape-1.png" alt="">
+
+        <div class="container">
+
+            <p class="subheading">FLAVORS FOR ROYALTY</p>
+            <div class="justify-content-center d-flex">
+                <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+            </div>
+
+            <h1 class="heading mb-4">We Offer Top Notch</h1>
+            <p class="para text-center">Lorem Ipsum is simply dummy text of the printing and <br> typesetting
+                industry
+                lorem Ipsum has been the <br> industrys standard dummy text ever.</p>
+
+            <div class="cards">
+
+                <div class="row g-5">
+
+                    <div class="col-md-4 col-sm-6 position-relative">
+                        <div class="service-card">
+                            <div class="d-flex justify-content-center align-items-center service">
+                                <img class="img-fluid service-img" src="images/service-1.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h1 class="heading-1 mb-3">Breakfast</h1>
+                        <div class="text-center"><a href="#menu" class="links">VIEW MENU</a></div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 position-relative">
+                        <div class="service-card">
+                            <div class="d-flex justify-content-center align-items-center service">
+                                <img class="img-fluid service-img" src="images/service-2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h1 class="heading-1 mb-3">Appetizers</h1>
+                        <div class="text-center"><a href="#menu" class="links">VIEW MENU</a></div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 position-relative">
+                        <div class="service-card">
+                            <div class="d-flex justify-content-center align-items-center service">
+                                <img class="img-fluid service-img" src="images/service-3.jpg" alt="">
+                            </div>
+                        </div>
+
+
+                        <h1 class="heading-1 mb-3">Drinks</h1>
+                        <div class="text-center"><a href="#menu" class="links">VIEW MENU</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="story mx-0" id="about">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-lg-6 story-left">
+
+                    <p class="subheading">OUR STORY</p>
+
+                    <div class="justify-content-center d-flex">
+                        <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+                    </div>
+
+                    <h1 class="heading mb-4">Every Flavour Tells a Story</h1>
+
+                    <p class="para text-center mx-5">Lorem Ipsum is simply dummy text of the printingand typesetting
+                        industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book It has survived not
+                        only five centuries, but also the leap into.</p>
+
+                    <p class="para fw-bold text-center mb-1">Book Through Call</p>
+
+                    <h1 class="heading-1 mb-5">+80 (400) 123 4567</h1>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="#home"><button class="btn-2">READ MORE</button></a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 story-right">
+
+                    <div class="images position-relative">
+                        <div class="circle position-absolute">
+                            <img class="image-1" src="images/badge-2.png" alt="ss">
+                        </div>
+                        <img class="image-2 img-fluid" src="images/about-banner.jpg" alt=""">
+                        <img class=" image-3 position-absolute" src="images/about-abs-image.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="dish mx-0">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-6 dish-left">
+                </div>
+
+                <div class="col-lg-6 dish-right">
+
+                    <div class="container">
+
+                        <div class="label-div position-relative">
+                            <img class="img-fluid position-absolute label" src="images/badge-1.png" alt="">
+                            <p class="subheading">SPECIAL DISH</p>
+                            <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+                        </div>
+
+                        <h1 class="heading mb-4">Lobster Tortellini</h1>
+                        <p class="para mb-3">
+                            Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has
+                            been
+                            the industrys standard dummy text ever since the when an unknown printer took a galley of
+                            type.
+                        </p>
+
+                        <div class="d-flex align-items-center" style="gap: 30px;">
+                            <p class="para less">$40.00</p>
+                            <p class="para more">$20.00</p>
+                        </div>
+
+                        <a href="#menu"> <button class="btn-2">VIEW ALL MENU</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="menu position-relative mx-0" id="menu">
+
+        <div class="container">
+
+            <img class="bg-3 position-absolute" src="images/shape-5.png" alt="">
+            <img class="bg-4 position-absolute" src="images/shape-6.png" alt="">
+
+            <p class="subheading">SPECIAL SELECTION</p>
+            <div class="justify-content-center d-flex">
+                <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+            </div>
+            <h1 class="heading mb-5">Delicious Menu</h1>
+
+            <div class="row">
+
+                <div class="col-lg-6 menu-list-1">
+
+                    <div class="menu-1 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-1.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item  menu-item-1 position-relative">Greek Salad</p>
+                                    <p class="price">$70.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-2 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-2.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item position-relative">Butter Pumpkin</p>
+                                    <p class="price">$15.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-3 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-3.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item position-relative">Olivas Rellenas</p>
+                                    <p class="price">$05.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 menu-list-2">
+
+                    <div class="menu-1 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-4.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item position-relative">Lasagne</p>
+                                    <p class="price">$10.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-2 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-5.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item menu-item-2 position-relative">Tokusen Wagyu</p>
+                                    <p class="price">$50.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-3 mb-5 px-3">
+                        <div class="d-flex" style="gap: 1rem;">
+
+                            <div class="menu-left">
+                                <img src="images/menu-6.png" alt="">
+                            </div>
+
+                            <div class="menu-right position-relative">
+
+                                <div class="d-flex align-items-center justify-content-between" style="gap: 15px;">
+                                    <p class="menu-item position-relative">Opu Fish</p>
+                                    <p class="price">$25.00</p>
+                                </div>
+
+                                <p class="para">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta
+                                    cheese.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <p class="para text-center mt-4">During winter daily from <span style="color: var(--gold);">7:00 pm</span>
+                to <span style="color: var(--gold);">9:00 pm</span></p>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn-2">VIEW ALL MENU</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials mx-0">
+
+        <div class="container">
+
+            <h1 class="heading" style="font-size: 5rem; transform: rotate(180deg);">”</h1>
+
+            <h1 class="heading test-line px-5 mb-5">
+                I wanted to thank you for inviting me down for that amazing dinner the other night. The food
+                was extraordinary.
+            </h1>
+
+            <div class="d-flex justify-content-center align-items-center mb-5">
+                <div class="seperator"></div>
+                <div class="seperator"></div>
+                <div class="seperator"></div>
+            </div>
+
+
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="rounded-circle" src="images/testi-avatar.jpg" alt="">
+            </div>
+
+            <p class="subheading mt-4">SAM JHONSON</p>
+
+        </div>
+
+    </section>
+
+    <section class="choose mx-0" id="chef">
+
+        <div class="container">
+            <p class="subheading text-center">WHY CHOOSE US</p>
+
+            <div class="justify-content-center d-flex">
+                <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+            </div>
+
+            <h1 class="heading mb-5">Our Strength</h1>
+
+            <div class="container">
+
+                <div class="row g-5">
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class=" text-center skill skill-1">
+                            <img class="img-fluid mb-4" src="images/features-icon-1.png" alt="">
+                            <h1 class="heading-1 mb-4">Hegienic Food</h1>
+                            <p class="para">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class=" text-center skill skill-2">
+                            <img class="img-fluid mb-4" src="images/features-icon-2.png" alt="">
+                            <h1 class="heading-1 mb-4">Fresh Environment</h1>
+                            <p class="para">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class=" text-center skill skill-1">
+                            <img class="img-fluid mb-4" src="images/features-icon-3.png" alt="">
+                            <h1 class="heading-1 mb-4">Skilled Chefs</h1>
+                            <p class="para">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class=" text-center skill skill-2">
+                            <img class="img-fluid mb-4" src="images/features-icon-4.png" alt="">
+                            <h1 class="heading-1 mb-4">Event & Party</h1>
+                            <p class="para">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="online mx-0" id="contact">
+
+        <div class="container online2">
+
+            <div class="row">
+
+                <div class="col-lg-8 online-left">
+
+                    <h1 class="heading">Online Reservation</h1>
+                    <p class="para text-center mb-5">Booking request <span
+                            style="color: var(--gold); cursor: pointer;">+88-123-123456</span> or fill out
+                        the order form</p>
+
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Phone Number" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <select class="form-select" style="cursor: pointer;">
+                                <option>1 Person</option>
+                                <option>2 Person</option>
+                                <option>3 Person</option>
+                                <option>4 Person</option>
+                                <option>5 Person</option>
+                                <option>6 Person</option>
+                                <option>7 Person</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <input type="date" class="form-control" placeholder="MM /DD /YYYY"
+                                style="cursor: pointer; text-transform: uppercase;">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <select class="form-select" style="cursor: pointer;">
+                                <option>08 : 00 pm</option>
+                                <option>09 : 00 pm</option>
+                                <option>10 : 00 pm</option>
+                                <option>11 : 00 pm</option>
+                                <option>12 : 00 am</option>
+                                <option>01 : 00 am</option>
+                                <option>02 : 00 am</option>
+                                <option>03 : 00 am</option>
+                                <option>04 : 00 am</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col">
+                            <textarea class="form-control" cols="30" rows="5" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                    <a href="#contact"> <button class="btn">BOOK A TABLE</button></a>
+                </div>
+
+                <div class="col-lg-4 online-right">
+
+                    <h1 class="heading mb-4">Contact Us</h1>
+                    <p class="para text-center fw-bold">Booking Request</p>
+                    <h1 class="heading-1 mb-4" style="color: var(--gold);">+88-123-123456</h1>
+
+                    <div class="d-flex justify-content-center align-items-center mb-4">
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                    </div>
+
+                    <p class="para text-center fw-bold">Location</p>
+                    <p class="para text-center text">Restaurant St, Delicious City, <br>London 9578, UK</p>
+
+                    <p class="para text-center fw-bold">Lunch Time</p>
+                    <p class="para text-center text">Monday to Sunday<br>11.00 am - 2.30pm</p>
+
+                    <p class="para text-center fw-bold">Dinner Time</p>
+                    <p class="para text-center text">Monday to Sunday<br>05.00 pm - 2.30pm</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog mx-0" id="blog">
+
+        <p class="subheading">RECENT UPDATES</p>
+
+        <div class="justify-content-center d-flex">
+            <img class="img-fluid mb-5" src="images/separator.svg" alt="" width="100">
+        </div>
+
+        <h1 class="heading mb-5">Upcoming Event</h1>
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="blogs position-relative">
+                        <img class="img-fluid" src="images/blog-3.png" alt="">
+                        <p class="para position-absolute">23/08/2023</p>
+
+                        <div class="inner-text pb-3 position-absolute">
+                            <h1 class="heading-1 px-5">Flavour so good you will eat with your eyes.</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="blogs position-relative">
+                        <img class="img-fluid" src="images/blog-3.png" alt="">
+                        <p class="para position-absolute">23/08/2023</p>
+
+                        <div class="inner-text pb-3 position-absolute">
+                            <h1 class="heading-1 px-5">Flavour so good you will eat with your eyes.</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="blogs position-relative">
+                        <img class="img-fluid" src="images/blog-3.png" alt="">
+                        <p class="para position-absolute">23/08/2023</p>
+
+                        <div class="inner-text pb-3 position-absolute">
+                            <h1 class="heading-1 px-5">Flavour so good you will eat with your eyes.</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center align-items-center">
+                <a href="#blog"><button class="btn-2">VIEW OUR BLOG</button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer mx-0">
+
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-md-3">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a class="links subheading" href="#home">HOME</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#menu">MENUS</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#about">ABOUT US</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#chef">OUR CHEFS</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#contact">CONTACT</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-6 footer-form position-relative text-center">
+
+                    <img class="mb-5" src="images/logo.svg" alt="">
+
+                    <p class="para">Restaurant St, London 9578, UK</p>
+                    <p class="para">booking@grilli.com</p>
+                    <p class="para">Booking Request : +88-123-123456</p>
+                    <p class="para">Open : 09:00 am - 01:00 pm</p>
+
+                    <div class="d-flex justify-content-center align-items-center mb-4 mt-5">
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                    </div>
+
+                    <h1 class="heading-1">Get News & Offers</h1>
+                    <p class="para mb-5">Subscribe us & Get <span class="fw-bold">25% Off.</span></p>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your Email">
+                        <button class="btn">SUBSCRIBE</button>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a class="links subheading" href="#">FACEBOOK</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#">INSTAGRAM</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#">TWITTER</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#">YOUTUBE</a>
+                        </li>
+
+                        <li>
+                            <a class="links subheading" href="#">GOOGLE MAP</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright para text-center">Copyright © 2023 All rights reserved | Made with ❤️ by <span
+                class="fw-bold" style="color: var(--gold);">Sara Malik</span></p>
+
+
+    </section>
+
+    <script>
+
+        const arrow = document.getElementById('arrow-right');
+        const home = document.getElementById('home');
+        const homeHeading = document.getElementById('home-heading');
+        const homeSubheading = document.getElementById('home-subheading');
+
+        const slider = () => {
+            home.style.backgroundImage = 'url(./images/hero-slider-2.jpg)';
+            homeHeading.innerHTML = "Flavors Inspired by <br> the Seasons";
+            homeSubheading.innerHTML = "DELIGHTFUL EXPERIENCE";
+        }
+
+        const slider2 = () => {
+            home.style.backgroundImage = 'url(./images/hero-slider-1.jpg)';
+            homeHeading.innerHTML = "For the love of <br> delicious food";
+            homeSubheading.innerHTML = "TRADATIONAL & HYGINE";
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
